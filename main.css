@@ -33,3 +33,29 @@ li a {
 li a:hover {
   background-color: #111111;
 }
+
+body {
+  font-family: 'Rubik' , sans-serif;
+  background-color: gray ;
+  color: white;
+}
+
+.name {
+  width: 800px;
+  padding: 5px;
+  margin: 25px 25px;
+}
+
+.name h1 {
+  font-size: 45px;
+}
+
+h3 a {
+  color: limegreen;
+}
+
+h3 a:hover {
+  color: lime;
+}
+
+

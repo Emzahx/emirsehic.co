@@ -1,0 +1,44 @@
+.about-me p {
+  font-size: 18px;
+
+}
+
+#p1 {
+  width: 800px;
+  padding: 5px;
+  margin: 25px 25px;
+
+}
+#p2 {
+  width: 800px;
+  padding: 5px;
+  margin: 25px 25px;
+
+}
+#p3 {
+  width: 800px;
+  padding: 5px;
+  margin: 25px 25px;
+
+}
+#p4 {
+  width: 800px;
+  padding: 5px;
+  margin: 25px 25px;
+
+}
+
+.about-me h2 {
+  width: 800px;
+  padding: 5px;
+  margin: 25px 25px;
+
+}
+
+#p2 a {
+  color: limegreen;
+}
+
+#p2 a:hover {
+  color: lime;
+}
