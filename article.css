@@ -9,6 +9,8 @@ p {
   margin: 25px 25px;
 }
 
+
+
 .about-me h2 {
   width: 800px;
   padding: 5px;
@@ -24,3 +26,10 @@ p a:hover {
   color: lime;
 }
 
+
+
+p {
+  width: 800px;
+  padding: 5px;
+  margin: 25px 25px;
+}
