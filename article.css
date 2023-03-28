@@ -3,29 +3,10 @@
 
 }
 
-#p1 {
+p {
   width: 800px;
   padding: 5px;
   margin: 25px 25px;
-
-}
-#p2 {
-  width: 800px;
-  padding: 5px;
-  margin: 25px 25px;
-
-}
-#p3 {
-  width: 800px;
-  padding: 5px;
-  margin: 25px 25px;
-
-}
-#p4 {
-  width: 800px;
-  padding: 5px;
-  margin: 25px 25px;
-
 }
 
 .about-me h2 {
@@ -35,10 +16,11 @@
 
 }
 
-#p2 a {
+p a {
   color: limegreen;
 }
 
-#p2 a:hover {
+p a:hover {
   color: lime;
 }
+

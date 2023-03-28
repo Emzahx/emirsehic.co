@@ -44,6 +44,11 @@ body {
   width: 800px;
   padding: 5px;
   margin: 25px 25px;
+  border-bottom: 1px solid rgba(red, green, blue, alpha);
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .name h1 {
