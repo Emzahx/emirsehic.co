@@ -96,6 +96,33 @@ h4 {
   font-weight: 400;
 }
 
+h5 {
+  font-size: 18.662px;
+  font-weight: 400;
+}
+
 .highlight {
   color: #dff962;
+}
+
+.about-me {
+  padding: 20px 0;
+  border-bottom: 1px solid rgba(44, 44, 44, 0.70);
+}
+
+.about-me a {
+  color: #dff962;
+  font-weight: 500;
+  text-decoration: none;
+
+}
+
+.ab-content {
+  margin: 16px 0;
+}
+
+.ab-content p {
+  margin-bottom: 20px;
+  font-size: 16px;
+  line-height: 1.5;
 }
