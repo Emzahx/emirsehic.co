@@ -10,12 +10,9 @@
 }
 
 body {
-  line-height: normal;
-  letter-spacing: normal;
   text-align: start;
   color: #f6f6f6;
   background-color: #191919;
-
 }
 
 body,
@@ -39,11 +36,9 @@ li a {
   color: #f6f6f6;
   text-align: start;
   font-size: 14px;
-  line-height: normal;
-  letter-spacing: normal;
   padding: 20px;
   text-decoration: none;
-  transition: border 2s ease-out;
+  transition: border 250ms ease-out;
   border-bottom: 2px solid rgba(255, 255, 255, 0);
 
 }
