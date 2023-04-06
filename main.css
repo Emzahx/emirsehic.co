@@ -158,13 +158,17 @@ h5 {
 .my-links {
   display: flex;
   flex-direction: row;
-  height: 406px;
+  height: 360px;
+  width: 300px;
   padding: 20px 0;
   margin-bottom: 30px;
   justify-content: space-between;
 }
 
-
+.btn {
+  width: 300px;
+  cursor: pointer;
+}
 
 
 
