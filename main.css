@@ -142,33 +142,7 @@ h5 {
   font-weight: bold;
 }
 
-.topics h5 {
-  font-family: 'Inter', sans-serif;
-  font-size: 18.622px;
-  margin: 20px 0;
-}
 
-.topics p {
-  font-size: 16px;
-  height: 20px;
-  margin: 16px 0;
-}
-
-.today-i-learned {
-  height: 406px;
-  padding: 20px 0;
-  display: flex;
-  flex-direction: row;
-  margin-bottom: 30px;
-  gap: 10px;
-}
-
-.blogs {
-  width: 389px;
-  height: 366px;
-  border: 2px solid rgba(44, 44, 44, 1);
-  border-radius: 10px;
-}
 
 footer {
   background-color: #212121;
@@ -180,6 +154,7 @@ footer {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+
 }
 
 .name {
@@ -193,7 +168,11 @@ footer {
   color: rgb(167, 167, 167);
 }
 
-@media screen and (max-width:1195px) {
+
+
+
+/* Might need later */
+/* @media screen and (max-width:1195px) {
   .today-i-learned {
     flex-direction: column;
   }
@@ -202,10 +181,4 @@ footer {
     width: 100%;
 
   }
-}
-
-
-
-
-
-
+} */
