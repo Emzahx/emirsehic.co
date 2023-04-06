@@ -7,15 +7,13 @@
 .container {
   max-width: 1195px;
   margin: 0 auto;
+  padding: 0 10px;
 }
 
 body {
-  line-height: normal;
-  letter-spacing: normal;
   text-align: start;
   color: #f6f6f6;
   background-color: #191919;
-
 }
 
 body,
@@ -39,11 +37,9 @@ li a {
   color: #f6f6f6;
   text-align: start;
   font-size: 14px;
-  line-height: normal;
-  letter-spacing: normal;
   padding: 20px;
   text-decoration: none;
-  transition: border 2s ease-out;
+  transition: border 250ms ease-out;
   border-bottom: 2px solid rgba(255, 255, 255, 0);
 
 }
@@ -125,4 +121,98 @@ h5 {
   margin-bottom: 20px;
   font-size: 16px;
   line-height: 1.5;
+}
+
+.skills {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  height: 97px;
+  border-bottom: 1px solid rgba(44, 44, 44, 0.7);
+  padding: 30px 0;
+  overflow-x: auto;
+  gap: 10px;
+}
+
+.skills li {
+  font-size: 30px;
+  height: 36px;
+  font-family: 'Inter', sans-serif;
+  color: #3f3f3f;
+  font-weight: bold;
+}
+
+.topic h5 {
+  font-family: 'Inter', sans-serif;
+  font-size: 18.622px;
+  font-weight: 500;
+  margin: 20px 0;
+}
+
+.topic p {
+  font-size: 16px;
+  height: 20px;
+  margin: 16px 0;
+}
+
+.my-links {
+  display: flex;
+  flex-direction: row;
+  height: 100px;
+  padding: 20px 0;
+  margin-bottom: 30px;
+  justify-content: space-between;
+}
+
+.btn {
+  width: 300px;
+  cursor: pointer;
+  border: 1px solid #3083DC;
+  border-radius: 33px;
+  background-color: #3083DC;
+  color: #f6f6f6;
+  font-size: large;
+}
+
+
+
+
+footer {
+  background-color: #212121;
+  padding: 12px 0;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.name {
+  color: #f6f6f6;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.copyright {
+  font-size: 15px;
+  color: rgb(167, 167, 167);
+}
+
+
+
+
+
+/* Might need later */
+@media screen and (max-width:1195px) {
+  .my-links {
+    flex-direction: column;
+  }
+
+  .btn {
+    width: 100%;
+  }
+
 }
