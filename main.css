@@ -38,7 +38,6 @@ ul {
   display: flex;
 }
 
-
 li a {
   display: block;
   color: #f6f6f6;
@@ -48,14 +47,12 @@ li a {
   text-decoration: none;
   transition: border 250ms ease-out;
   border-bottom: 2px solid rgba(255, 255, 255, 0);
-
 }
 
 li a:hover {
   border-bottom: 2px solid rgba(255, 255, 255, 1.0);
 
 }
-
 
 .header {
   border-bottom: 1px solid rgba(44, 44, 44, 0.70);
@@ -74,7 +71,6 @@ li a:hover {
 .socials svg path {
   fill: rgb(120, 120, 120);
 }
-
 
 .socials svg path:hover {
   fill: rgb(151, 151, 151);
@@ -181,12 +177,10 @@ h5 {
   color: #f6f6f6;
 }
 
-
 footer {
   background-color: #212121;
   padding: 12px 0;
   height: 46px;
-
 }
 
 .footer {
@@ -207,8 +201,6 @@ footer {
   color: rgb(167, 167, 167);
 }
 
-
-
 /* Might need later */
 @media screen and (max-width:1195px) {
   .my-links {
@@ -218,5 +210,4 @@ footer {
   .btn {
     width: 100%;
   }
-
 }
