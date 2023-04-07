@@ -126,6 +126,10 @@ h5 {
   line-height: 1.5;
 }
 
+.email {
+  color: #3083DC;
+}
+
 .skills {
   display: flex;
   flex-direction: row;
