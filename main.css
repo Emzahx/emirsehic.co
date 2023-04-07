@@ -17,12 +17,6 @@
   padding: 0 10px;
 }
 
-.wrapper {
-  /* overflow-y: auto; */
-  border: 1px dotted white;
-  min-height: 100vh;
-}
-
 body {
   text-align: start;
   color: #f6f6f6;
