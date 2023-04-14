@@ -189,7 +189,6 @@ h5 {
 footer {
   background-color: #212121;
   height: 46px;
-  /* margin-top: 40px; */
 }
 
 .footer {
@@ -215,7 +214,6 @@ footer {
   height: 20px;
 }
 
-/* Might need later */
 @media screen and (max-width:1195px) {
   .my-links {
     flex-direction: column;
