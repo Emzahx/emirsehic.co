@@ -1,5 +1,5 @@
 # Website
-The Source code for my personal website, you can check it out [here](https://emirsehic.co).
+The Source code for my personal website, you can check it out [here](https://emirsehic-me.vercel.app/).
 
 ## Motivation
 As a primarily front end developer, I am constantly testing new boundaries and going outside my comforat zone, so I wanted to create a website where I can showcase the skills that I have learnt and projects that I have worked on.
