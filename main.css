@@ -19,8 +19,8 @@
 
 body {
   text-align: start;
-  color: #f6f6f6;
-  background-color: #191919;
+  color: #191919;
+  background-color: #ffffff;
 }
 
 body,
@@ -34,13 +34,13 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #191919;
+  background-color: #ffffff;
   display: flex;
 }
 
 li a {
   display: block;
-  color: #f6f6f6;
+  color: #191919;
   text-align: start;
   font-size: 14px;
   padding: 20px;
