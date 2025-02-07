@@ -50,12 +50,12 @@ li a {
 }
 
 li a:hover {
-  border-bottom: 2px solid rgba(185, 5, 5, 0.548);
+  border-bottom: 2px solid rgba(44, 44, 44, 0.80);
 
 }
 
 .header {
-  border-bottom: 1px solid rgba(183, 15, 15, 0.854);
+  border-bottom: 1px solid rgba(44, 44, 44, 0.70);
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -101,7 +101,7 @@ h5 {
 }
 
 .highlight {
-  color: #3083DC;
+  color: #18af34;
 }
 
 .about-me {
@@ -110,7 +110,7 @@ h5 {
 }
 
 .about-me a {
-  color: #3083DC;
+  color: #18af34;
   font-weight: 500;
   text-decoration: none;
 
@@ -124,10 +124,6 @@ h5 {
   margin-bottom: 20px;
   font-size: 16px;
   line-height: 1.5;
-}
-
-.email {
-  color: #3083DC;
 }
 
 .skills {
