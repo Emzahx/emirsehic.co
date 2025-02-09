@@ -192,19 +192,15 @@ h5 {
   color: #f6f6f6;
   font-size: 16px;
   box-shadow: 0px 4px;
+  transition: width 1s;
+  transition: background-color 2s 50ms;
 }
 
 .btn-link button:hover {
-  background-color: #3d3d3e;
+  background-color: #616161;
+  width: 140px;
 }
 
-.btn-link button:active {
-  margin-top: 2px;
-  margin-bottom: 2px;
-  box-shadow: 0px 0px;
-  background-color: #3d3d3e;
-  color: #fff;
-}
 
 .btn-link {
   width: 100%;
