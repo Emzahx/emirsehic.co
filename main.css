@@ -59,10 +59,10 @@ ul {
 .hero {
   font-family: InterVariable, Inter, ui-sans-serif, system-ui, sans-serif,
     "Apple Color Emoji", "Segoe UI Emoji", Segoe UI Symbol, "Noto Color Emoji";
-  display: flex;
-  flex-direction: row;
   align-items: center;
-  height: 300px;
+  width: 800px;
+  height: 204px;
+  margin: auto;
 }
 
 .tri-style {
