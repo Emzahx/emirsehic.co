@@ -19,12 +19,14 @@
 
 body {
   text-align: start;
-  /*background-color: rgb(24, 24, 27);*/
+  color: #ffffff;
+  background-color: rgb(24, 24, 27);
 }
 
 body,
 html {
-  font-family: "Inter", sans-serif;
+  font-family: InterVariable, Inter, ui-sans-serif, system-ui, sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", Segoe UI Symbol, "Noto Color Emoji";
   font-size: 14px;
 }
 
@@ -39,20 +41,25 @@ ul {
 .header {
   font-size: 18px;
   line-height: 28px;
-  text-align: start;
   letter-spacing: normal;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #18181b;
+  opacity: 50%;
 }
 
 .header li a {
   display: block;
   text-align: start;
   padding: 20px;
-  text-decoration: none;
   font-size: 14px;
 }
 
 .hero {
-  font-family: "Inter", sans-serif;
+  font-family: InterVariable, Inter, ui-sans-serif, system-ui, sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", Segoe UI Symbol, "Noto Color Emoji";
   align-items: center;
 }
 
@@ -76,16 +83,4 @@ ul {
 }
 
 @media screen and (max-width: 1195px) {
-  .my-links {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .btn-link {
-    width: 80%;
-  }
-
-  .container {
-    width: 100%;
-  }
 }
