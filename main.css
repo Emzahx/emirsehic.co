@@ -4,98 +4,63 @@
   box-sizing: border-box;
 }
 
-/*.fullheight {
+.fullheight {
   min-height: 100vh;
   display: flex;
   justify-content: space-between;
   flex-direction: column;
-}*/
+}
 
-/*.container {
-  width: 1195px;
+.container {
+  width: 640px;
   margin: 0 auto;
   padding: 0 10px;
-}*/
+}
 
 body {
   text-align: start;
   color: #ffffff;
-  background-color: rgba(24, 24, 27);
+  background-color: #18181b;
 }
 
 body,
 html {
-  font-family: InterVariable, Inter, ui-sans-serif, system-ui, sans-serif,
-    "Apple Color Emoji", "Segoe UI Emoji", Segoe UI Symbol, "Noto Color Emoji";
+  font-family: Inter, ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", Segoe UI Symbol, "Noto Color Emoji";
   font-size: 14px;
-  width: 800px;
-  margin: auto;
 }
 
 ul {
   list-style-type: none;
-  display: flex;
-  overflow: hidden;
-  padding: 0;
   margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: flex;
 }
 
 .header {
-  line-height: 28px;
-  letter-spacing: normal;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
-  fill: #18181b;
-  background-color: #18181b;
+  background-color: #181818;
+  width: 100%;
 }
 
 .header li a {
   display: block;
   text-align: start;
-  padding: 20px;
   font-size: 14px;
-  color: #ffffff;
+  padding: 20px;
   text-decoration: none;
+  color: #ffffff;
+  transition: color 2s 50ms;
 }
 
 .header li a:hover {
-  color: #60a5fa;
+  color: #ffffff;
+  opacity: 75%;
 }
 
-.hero {
-  font-family: InterVariable, Inter, ui-sans-serif, system-ui, sans-serif,
-    "Apple Color Emoji", "Segoe UI Emoji", Segoe UI Symbol, "Noto Color Emoji";
-  align-items: center;
-  height: 204px;
-  display: flex;
-  flex-direction: row;
-}
-
-.tri-style {
-  width: 120px;
-  height: 120px;
-}
-
-.wb-skills {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  height: 97px;
-  padding: 30px 0px;
-  gap: 10px;
-  overflow: auto;
-}
-
-.wb-skills p {
-  font-size: 15px;
-}
-
-.web-style {
-  width: 15px;
-  height: 15px;
-}
-
-@media screen and (max-width: 1195px) {
+@media screen and (max-width: 640px) {
 }
