@@ -57,11 +57,11 @@ ul {
   padding: 20px;
   font-size: 14px;
   color: #ffffff;
+  text-decoration: none;
 }
 
-.header li a:active {
+.header li a:hover {
   color: #60a5fa;
-  text-decoration: underline;
 }
 
 .hero {
